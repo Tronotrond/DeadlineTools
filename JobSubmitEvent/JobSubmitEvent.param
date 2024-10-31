@@ -1,0 +1,18 @@
+[State]
+Type=Enum
+Items=Global Enabled;Disabled
+Category=Options
+CategoryOrder=0
+Index=0
+Label=State
+Default=Disabled
+Description=<html><head/><body><p>How this event plugin should respond to events. If Global, all jobs and Workers will trigger the events for this plugin. If Disabled, no events are triggered for this plugin. Default: Disabled.</p></body></html>
+
+[GroupLimitMappings]
+Type=MultiLineString
+Category=Configuration
+CategoryOrder=1
+Index=1
+Default=group1:limit1
+Label=Group to Limit mapping
+Description=<html><head/><body><p>Group to Limit Group Mappings (Format: group1:limit1;group2:limit2)</p></body></html>
